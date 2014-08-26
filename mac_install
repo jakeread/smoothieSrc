@@ -74,8 +74,8 @@ rm -r $GCC4ARM_DIR >/dev/null 2>/dev/null
 RunAndLog tar xf $GCC4ARM_TAR
 RunAndLog mv $GCC4ARM_EXTRACT $GCC4ARM_DIR
 
-echo Installing patched 64-bit Intel Mac OS X GDB binaries...
-RunAndLog cp $MACBIN_DIR/arm-none-eabi-gdb* $GCC4ARM_BINDIR/
+#echo Installing patched 64-bit Intel Mac OS X GDB binaries...
+#RunAndLog cp $MACBIN_DIR/arm-none-eabi-gdb* $GCC4ARM_BINDIR/
 
 echo Creating helper scripts...
 echo "#! /usr/bin/env bash">$BUILDSHELL_CMD
